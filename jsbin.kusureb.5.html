@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by Balla1987 (http://jsbin.com/kusureb/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Bootstrap-teszt</title>
+<style id="jsbin-css">
+.head-info {
+margin-top: 1rem;
+}
+
+img {
+display: block;
+margin: 0 auto;
+}
+
+table,tbody,thead,th,tr,td {
+text-align: center;
+font-weight: normal;
+border-collapse: collapse;
+border: 3px solid #53350a;
+}
+
+h1,h2 {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+}
+
+iframe {
+display: block;
+margin: 0 auto;
+}
+
+tooltip {
+color: blue;
+}
+
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="jumbotron"> Choose please a squirrel!</h1>
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#greysquirel">Eastern Grey Squirrel</a></li>
+      <li><a data-toggle="tab" href="#eredsquirrel">European Red Squirrel</a></li>
+      <li><a data-toggle="tab" href="#aredsquirrel">American Red Squirrel</a></li>
+</ul>
+    <div class="tab-content">
+      <div id="greysquirel" class="tab-pane fade in active">
+<p class="head-info">Sciurus carolinensis, common name eastern gray squirrel or grey squirrel depending on region, is a <a href="https://en.wikipedia.org/wiki/Tree_squirrel" target="_blank">tree squirrel</a> in the genus <a href="https://en.wikipedia.org/wiki/Sciurus" target="_blank">Sciurus</a>. It is native to eastern North America, where it is the most prodigious and ecologically essential natural forest regenerator.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Eastern_Grey_Squirrel.jpg/800px-Eastern_Grey_Squirrel.jpg" class="img-responsive" alt="an american grey squirrel" width="350px" height="350px">
+        <h2> Some information about this squirrel!</h2>
+<div class="table-responsive">
+<table class="table">
+          <thead>
+            <tr>
+              <th>Avarage weight</th>
+              <th>Avarage teeth numbers</th>
+              <th>Avarage height</th>
+              <th>Color</th>
+</tr>
+</thead>
+          <tbody>
+            <tr>
+              <td>400-600g</td>
+              <td>22</td>
+              <td>23-30cm</td>
+              <td>from grey to black</td>
+</tr>
+</tbody>
+</table>
+        </div>
+        <h2> And finally a video about this squirrel</h2>
+<iframe id="s_video" width="350" height="350" src="https://www.youtube.com/embed/8b-2TFrx3fg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+      <div id="eredsquirrel" class="tab-pane fade">
+        <p class="head-info">The red squirrel or Eurasian red squirrel (Sciurus vulgaris) is a species of <a href="https://en.wikipedia.org/wiki/Tree_squirrel" target="_blank"> tree squirrel</a> in the genus Sciurus common throughout Eurasia. The red squirrel is an <a href="https://en.wikipedia.org/wiki/Arboreal_locomotion" target="_blank">arboreal</a>,<a href="https://en.wikipedia.org/wiki/Omnivore" target="_blank">omnivorous</a> rodent.<br>
+In Great Britain, Italy and Ireland, numbers have decreased drastically in recent years. This decline is associated with the introduction by humans of the <a href="https://en.wikipedia.org/wiki/Eastern_gray_squirrel" target="_blank" data-toggle="tooltip" data-placement=top title="Support our red squirrel!">eastern grey squirrel</a> (Sciurus carolinensis) from North America and habitat loss. Due to this, without conservation the species could be extirpated from Britain by 2030.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Squirrel_posing.jpg/800px-Squirrel_posing.jpg" alt="a red squirrel" width="300px" height="250px">
+<h2> Some information about this squirrel!</h2>
+<div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Avarage weight</th>
+              <th>Avarage teeth numbers</th>
+              <th>Avarage height</th>
+              <th>Color</th>
+</tr>
+</thead>
+          <tbody>
+            <tr>
+              <td>400-800g</td>
+              <td>22</td>
+              <td>19-23cm</td>
+              <td>Normally red, can be brown, or white-red</td>
+</tr>
+</tbody>
+</table>
+        </div>
+        <h2>And finally a funny video about this cute one!</h2>
+<iframe width="350" height="300" src="https://www.youtube.com/embed/GC6i-MlmiU0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+      <div id="aredsquirrel" class="tab-pane fade">
+        <p class="head-info">The American red squirrel (Tamiasciurus hudsonicus) is one of three species of tree squirrel currently classified in the genus Tamiasciurus, known as the pine squirrels (the others are the <a href="https://en.wikipedia.org/wiki/Douglas_squirrel" target="_blank">Douglas squirrel</a>, T. douglasii, and <a href="https://en.wikipedia.org/wiki/Mearns%27s_squirrel" target="_blank">Mearns's squirrel</a>, T. mearnsi). American red squirrels are also referred to as pine squirrels, North American red squirrels, and chickarees.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Tamiasciurus_hudsonicus_CT.jpg/800px-Tamiasciurus_hudsonicus_CT.jpg" alt="an american red squirrrel" width="300px" height="250px">
+<h2> Some information about this squirrel!</h2>
+<div class="table-responsive">
+        <table class="table">
+<thead>
+          <tr>
+            <th>Avarage weight</th>
+            <th>Avarage teeth numbers</th>
+            <th>Avarage height</th>
+            <th>Color</th>
+</tr>
+</thead>
+          <tbody>
+            <tr>
+              <td>200-250g</td>
+              <td>20 or 22</td>
+              <td>18-24cm</td>
+              <td>various of red and brown</td>
+</tr>
+</tbody>
+</table>
+        </div>
+<h2>And finally a funny video about this cute one too!</h2>
+<iframe width="350" height="300" src="https://www.youtube.com/embed/ZGlCPed48B0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<script id="jsbin-javascript">
+$('a[data-toggle="tooltip"]').tooltip({
+   container: 'body', delay: 500
+});
+
+</script>
+</body>
+</html>
